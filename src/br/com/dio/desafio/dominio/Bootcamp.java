@@ -9,8 +9,8 @@ import java.util.Set;
 public class Bootcamp {
     private String nome;
     private String descricao;
-    private final LocalDate dataInicial = LocalDate.now();
-    private final LocalDate dataFinal = dataInicial.plusDays(45);
+    private final LocalDate dataInicial = LocalDate.now(); // LocalDate é um tipo que já vem no Java
+    private final LocalDate dataFinal = dataInicial.plusDays(45); // metodo plusDays adiciona 45 dias a partir da data original
     private Set<Dev> devsInscritos = new HashSet<>();
     private Set<Conteudo> conteudos = new LinkedHashSet<>();
 

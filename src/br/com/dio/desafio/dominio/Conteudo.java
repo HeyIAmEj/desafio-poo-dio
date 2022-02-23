@@ -1,7 +1,7 @@
 package br.com.dio.desafio.dominio;
 
 public abstract class Conteudo {
-
+    // Conteudo do Curso
     protected static final double XP_PADRAO = 10d;
 
     private String titulo;
